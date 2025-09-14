@@ -1,0 +1,8 @@
+# wrangler.toml
+name = "emoji-finder-api"
+main = "src/index.ts"
+compatibility_date = "2024-03-18"
+
+# This binding gives your Worker code access to the AI models.
+[ai]
+binding = "AI" 
