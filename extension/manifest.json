@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "eifn - Emoji & Icon Finder",
+  "version": "1.0",
+  "description": "Get emoji and icon suggestions for any word or concept.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.svg",
+      "48": "images/icon.svg",
+      "128": "images/icon.svg"
+    }
+  },
+  "icons": {
+    "16": "images/icon.svg",
+    "48": "images/icon.svg",
+    "128": "images/icon.svg"
+  },
+  "host_permissions": [
+    "http://127.0.0.1:8787/*" 
+    
+  ]
+}
